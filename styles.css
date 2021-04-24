@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+}
+
+.note{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#deleteButton0{
+    color:blue;
+}
