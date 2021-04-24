@@ -1,31 +1,27 @@
 
 let notes = [];
-
 let textInput = document.getElementById("textInput");
 
-let x ;
-let delItem = [];
+
 // Submit value function
 
 let newNote = ()=>{
-     // adds value to holder variable
+     // adds text value to holder variable
      notes.push(textInput.value); 
      
-    //  check if empty and create note elements
+    //  check if empty and create div note elements
      if(textInput.value!=0){
       let   div = document.createElement('div');
       let   button = document.createElement('button');
-         button.innerHTML = "delete me"
-       
+         
         div.className ="note"
 //adding notes when add button clicked
         for(let i = 0; i<notes.length; i++){
-              //add note to array 
+           //add input value to div content
             div.innerHTML = notes[i];
-            
-              //add custom ID 
-              div.id = "noteIndex"+[i];
-           
+            button.innerHTML = "delete me"
+          //adding custom IDs so we can delete exact notes 
+             div.id = "noteIndex"+[i];
              document.body.appendChild(div);
              document.body.appendChild(button);
              button.setAttribute("onclick","deleteNote("+i+")");
