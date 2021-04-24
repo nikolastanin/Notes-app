@@ -1,17 +1,66 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
-    background-color: red;
+    background-color:wheat;
+}
+h1{
+    color: teal;
 }
 
-.note{
-    width: 100px;
-    height: 100px;
-    background-color: wheat;
-    margin-bottom: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 #deleteButton0{
     color:blue;
 }
+
+
+
+#notesList{
+  display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start; 
+   align-items:stretch;
+   margin-top:30px;
+  
+}
+.noteElement{
+
+    background-color: rebeccapurple;
+    border: rosybrown;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#textInput{
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+button{
+    border-style: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.note{
+   
+    background-color: wheat;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+
+
+/* Created by Nikola Stanin 24.04.2021.  */
