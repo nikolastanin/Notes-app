@@ -21,7 +21,7 @@ let newNote = ()=>{
         for(let i = 0; i<notes.length; i++){
            //add input value to div content
             p.innerHTML = notes[i];
-            button.innerHTML = "delete me"
+            button.innerHTML = "delete"
           //adding custom IDs so we can delete exact notes 
             //  div.id = "noteIndex"+[i];
             noteElement.setAttribute("id","noteIndex"+i);
