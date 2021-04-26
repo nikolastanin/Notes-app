@@ -1,7 +1,7 @@
 
-let notes = [];
-let textInput = document.getElementById("textInput");
-let  notesList = document.getElementById("notesList");
+  let notes = [];
+  let textInput = document.getElementById("textInput");
+  let  notesList = document.getElementById("notesList");
 
 // Submit value function
 

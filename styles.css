@@ -1,17 +1,18 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+#container{
+    width: 50%;
+    margin: auto;
+}
 body{
-    background-color:wheat;
+    background-color:white;
 }
 h1{
-    color: teal;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-#deleteButton0{
-    color:blue;
+button{
+    background-color:#fcecdd;
 }
 
 
@@ -27,12 +28,17 @@ h1{
 }
 .noteElement{
 
-    background-color: rebeccapurple;
-    border: rosybrown;
+    background-color: white;
+    /* border: black; */
     border-radius: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 20px;
     padding: 15px;
-    box-shadow: 5px 10px 8px #888888;
+    /* box-shadow: 5px 10px 8px #888888; */
+   
+}
+.noteElement:hover{
+    border: 1px solid #2D9CDB;
 }
 
 #textInput{
@@ -41,9 +47,17 @@ h1{
     border-radius: 20px;
 }
 button{
-    border-style: none;
-    padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding:10px 20px;
+    box-shadow: none;
+    border: none;
+    background-color:#2D9CDB;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+button:hover{
+    border: #2D9CDB 1px solid;
+    padding:11px 21px;
 }
 
 .note{
@@ -57,11 +71,17 @@ button{
 }
 
 p{
-    color:white;
+    color:gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
 }
 
 
-
+@media only screen and (max-width: 992px) {
+    #container{
+        width: 100%;
+    }
+}
 
 
 
