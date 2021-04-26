@@ -37,19 +37,16 @@ button{
 .noteElement{
 
     background-color: #f4ce8d;
-    /* border: black; */
+   
     border-radius: 20px;
     
     
     padding: 15px;
-    /* box-shadow: 5px 10px 8px #888888; */
    width : 80%;
    margin: auto;
    margin-bottom: 10px;
 }
-/* .noteElement:hover{
-    border: 1px solid #2D9CDB;
-} */
+
 
 #input-container{
     display: flex;
@@ -63,13 +60,23 @@ button{
     
     font-size: 1.5rem;
     border-radius: 20px;
-    border: #2D9CDB solid 1px;
+    border: none;
+    color: #252525;
     padding : 10px;
     text-align: center;
     width: 80%;
     margin: auto;
     margin-bottom: 15px;
 }
+#textInput:focus{
+    
+    font-size: 1.6rem;
+    outline-width: 0;
+}
+   button:focus{
+    outline-width: 0;
+   } 
+
 
 button{
     border-radius: 10px;
@@ -89,7 +96,9 @@ button:hover{
     width: 20%;
     margin: auto;
     background-color: #f4ce8d;
+    font-size: 1rem;
 }
+
 .note{
    
     /* background-color: wheat; */
