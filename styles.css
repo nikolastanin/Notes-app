@@ -1,3 +1,7 @@
+*{
+    margin : 0;
+    padding: 0;
+}
 #container{
     width: 50%;
     margin: auto;
@@ -6,8 +10,10 @@ body{
     background-color:white;
 }
 h1{
-    color: gray;
+    color: #2D9CDB;
     font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    
 }
 
 
@@ -32,20 +38,37 @@ button{
     /* border: black; */
     border-radius: 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
+    
     padding: 15px;
     /* box-shadow: 5px 10px 8px #888888; */
-   
+   width : 80%;
+   margin: auto;
+   margin-bottom: 10px;
 }
-.noteElement:hover{
+/* .noteElement:hover{
     border: 1px solid #2D9CDB;
+} */
+
+#input-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    
 }
 
 #textInput{
-    border-style: none;
+    
     font-size: 1.5rem;
     border-radius: 20px;
+    border: #2D9CDB solid 1px;
+    padding : 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
 }
+
 button{
     border-radius: 10px;
     padding:10px 20px;
@@ -59,21 +82,28 @@ button:hover{
     border: #2D9CDB 1px solid;
     padding:11px 21px;
 }
-
+button#add{
+    /* padding: 20px 40px; */
+    width: 20%;
+    margin: auto;
+}
 .note{
    
     /* background-color: wheat; */
     margin-bottom: 15px;
-    padding: 20px;
-    width: 70%;
-    border-radius: 20px;
-    
+    padding: 5px;
+    color:gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    width: auto;
+    overflow-wrap: break-word;
 }
 
 p{
     color:gray;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
+    width: auto;
 }
 
 

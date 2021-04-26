@@ -38,7 +38,8 @@ let newNote = ()=>{
      }
     //  displaying a warning when input is empty
      else{
-         textInput.placeholder ="Please enter some text";
+        textInput.placeholder ="Please enter some text";
+        window.alert("Please enter some text");
      }
      
      
