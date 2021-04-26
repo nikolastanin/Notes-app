@@ -1,24 +1,26 @@
 *{
     margin : 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 #container{
     width: 50%;
     margin: auto;
 }
 body{
-    background-color:white;
+    background-color:#252525;
 }
 h1{
-    color: #2D9CDB;
-    font-family: 'Poppins', sans-serif;
-    margin: 20px auto;
+    color: white;
+
+    margin: 50px auto;
     
 }
 
 
 button{
     background-color:#fcecdd;
+   
 }
 
 
@@ -34,10 +36,10 @@ button{
 }
 .noteElement{
 
-    background-color: white;
+    background-color: #f4ce8d;
     /* border: black; */
     border-radius: 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
     
     padding: 15px;
     /* box-shadow: 5px 10px 8px #888888; */
@@ -72,39 +74,34 @@ button{
 button{
     border-radius: 10px;
     padding:10px 20px;
-    box-shadow: none;
+  
     border: none;
-    background-color:#2D9CDB;
+    background-color:#ffab91;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: #392912;
 }
 button:hover{
-    border: #2D9CDB 1px solid;
-    padding:11px 21px;
+    border: #252525 1px solid;
+    
 }
-button#add{
+#add{
     /* padding: 20px 40px; */
     width: 20%;
     margin: auto;
+    background-color: #f4ce8d;
 }
 .note{
    
     /* background-color: wheat; */
     margin-bottom: 15px;
     padding: 5px;
-    color:gray;
+    color:#392912;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     width: auto;
     overflow-wrap: break-word;
 }
 
-p{
-    color:gray;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    width: auto;
-}
 
 
 @media only screen and (max-width: 992px) {
