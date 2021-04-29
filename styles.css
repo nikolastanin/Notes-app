@@ -12,18 +12,13 @@ body{
 }
 h1{
     color: white;
-
     margin: 50px auto;
-    
 }
-
 
 button{
     background-color:#fcecdd;
    
 }
-
-
 
 #notesList{
   display: flex;
@@ -36,12 +31,8 @@ button{
   
 }
 .noteElement{
-
     background-color: #f4ce8d;
-   
     border-radius: 20px;
-    
-    
     padding: 15px;
    width : 80%;
    margin: auto;
@@ -58,7 +49,6 @@ button{
 }
 
 #textInput{
-    
     font-size: 1.5rem;
     border-radius: 20px;
     border: none;
@@ -70,11 +60,11 @@ button{
     margin-bottom: 15px;
 }
 #textInput:focus{
-    
     font-size: 1.6rem;
     outline-width: 0;
 }
-   button:focus{
+
+button:focus{
     outline-width: 0;
    } 
 
@@ -82,7 +72,6 @@ button{
 button{
     border-radius: 10px;
     padding:10px 20px;
-  
     border: none;
     background-color:#ffab91;
     font-family: 'Poppins', sans-serif;
@@ -93,16 +82,16 @@ button:hover{
     
 }
 #add{
-    /* padding: 20px 40px; */
+    
     width: 20%;
     margin: auto;
-    background-color: #696969;
+    background-color: #f4ce8d;
     font-size: 1rem;
 }
 
 .note{
    
-    /* background-color: wheat; */
+    
     margin-bottom: 15px;
     padding: 5px;
     color:#392912;
@@ -114,16 +103,12 @@ button:hover{
 
 footer{
     position: fixed;
-   
     bottom: 0;
-   
     bottom: 0;
     width: 100%; 
-   
     color: #ffab91;
     text-align: center;
-
-  z-index: -1;
+    z-index: -1;
 }
 
 
