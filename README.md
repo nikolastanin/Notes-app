@@ -2,7 +2,7 @@
 
 
 # Notes app
-Simple To Do web app I made using JavaScript. 
+Simple Notes web app I made using JavaScript. 
 Test the app :  https://nikolastanin.github.io/ToDo/
 
 There is a version with local storage coming soon, because now the app loses data when the user reloads. 
