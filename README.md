@@ -3,7 +3,7 @@
 
 # Notes app
 Simple Notes web app I made using JavaScript. 
-Test the app :  https://nikolastanin.github.io/ToDo/
+Test the app :  https://nikolastanin.github.io/Notes-app/
 
 There is a version with local storage coming soon, because now the app loses data when the user reloads. 
 
