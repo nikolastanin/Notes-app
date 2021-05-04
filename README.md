@@ -1,6 +1,6 @@
 
 
-# ToDo
+# Notes app
 Simple To Do web app I made using JavaScript. 
 Test the app :  https://nikolastanin.github.io/ToDo/
 
