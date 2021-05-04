@@ -8,7 +8,6 @@
 let newNote = ()=>{
      // adds text value to holder variable
      notes.push(textInput.value); 
-     
     //  check if empty and create div note elements
      if(textInput.value!=0){
      let p = document.createElement('p');
